@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionarUser">
+
+
+    <EditText
+        android:id="@+id/edPreco2"
+        android:layout_width="263dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Preço"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/edDescricao"
+        app:layout_constraintTop_toBottomOf="@+id/edDescricao" />
+
+    <EditText
+        android:id="@+id/edUsuario"
+        android:layout_width="261dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="Usuário"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edNomeProduto"
+        android:layout_width="267dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Nome do Produto"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/edUsuario" />
+
+    <EditText
+        android:id="@+id/edDescricao"
+        android:layout_width="265dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Descriçao"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edNomeProduto"
+        app:layout_constraintTop_toBottomOf="@+id/edNomeProduto" />
+
+    <EditText
+        android:id="@+id/edPreco"
+        android:layout_width="263dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Preço"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/edDescricao"
+        app:layout_constraintTop_toBottomOf="@+id/edDescricao" />
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Adicionar"
+        app:layout_constraintEnd_toEndOf="@+id/edEstoque"
+        app:layout_constraintTop_toBottomOf="@+id/edEstoque" />
+
+    <EditText
+        android:id="@+id/edEstoque"
+        android:layout_width="265dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Estoque"
+        app:layout_constraintStart_toStartOf="@+id/edPreco2"
+        app:layout_constraintTop_toBottomOf="@+id/edPreco2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

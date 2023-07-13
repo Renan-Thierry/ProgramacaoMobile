@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949577972852",
+    "project_id": "apploja-35062",
+    "storage_bucket": "apploja-35062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949577972852:android:e6aa2951a74bbe72f8a521",
+        "android_client_info": {
+          "package_name": "com.example.aulafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949577972852-dvj06mjqcccb91q1s64mdiguf11f44nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrpZYm-mWZeg5a5k0J6Lpi_EbZN0YoxNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949577972852-dvj06mjqcccb91q1s64mdiguf11f44nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
